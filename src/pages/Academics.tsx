@@ -73,7 +73,7 @@ const Academics = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-primary/5 via-background to-primary-light/5">
+      {/* <section className="relative py-20 bg-gradient-to-br from-primary/5 via-background to-primary-light/5">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center animate-fade-up">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Academics</h1>
@@ -82,12 +82,12 @@ const Academics = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Tabbed Content */}
-      <section className="py-20">
+      <section className="py-18">
         <div className="container mx-auto px-4">
-          <Tabs value={activeTab} onValueChange={setActiveTab} className="max-w-6xl mx-auto">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="max-w-7xl mx-auto">
             <TabsList className="grid w-full grid-cols-1 md:grid-cols-3 mb-12">
               <TabsTrigger value="curriculum" className="text-base py-3">
                 Curriculum

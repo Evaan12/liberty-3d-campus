@@ -10,7 +10,7 @@ export const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <GraduationCap className="h-8 w-8" />
-              <span className="text-xl font-bold">Anarmani Liberty</span>
+              <span className="text-xl font-bold leading-tight font-old-english">Anarmani Liberty School</span>
             </div>
             <p className="text-sm opacity-90">
               Providing quality education and shaping future leaders through excellence, innovation, and dedication.

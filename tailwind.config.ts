@@ -13,6 +13,10 @@ export default {
       },
     },
     extend: {
+      // Add the new font family here
+      fontFamily: {
+        'old-english': ['"Old English Text MT"', 'serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

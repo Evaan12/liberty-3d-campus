@@ -27,6 +27,12 @@ const founders = [
     image: founder3
   },
   {
+    name: "Mrs. Ashish Khadka",
+    role: "Co-Founder & Principal",
+    bio: "With a passion for student welfare and development, Mrs. Johnson ensures every child receives personalized attention and care.",
+    image: founder3
+  },
+  {
     name: "Dr. Michael Chen",
     role: "Director of Innovation",
     bio: "Leading our technology integration and modern learning initiatives, Dr. Chen brings cutting-edge educational practices to our school.",

@@ -22,7 +22,7 @@ export const Hero = () => {
               </span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight font-old-english">
               <span className="text-primary">Anarmani</span>
               <br />
               <span className="text-foreground">Liberty School</span>

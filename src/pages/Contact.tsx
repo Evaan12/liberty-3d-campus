@@ -73,17 +73,17 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Visit Us",
-      details: ["123 Education Street", "Academic City, AC 12345"]
+      details: ["Birtamode-5", "Near Old Bhadrapur Road"]
     },
     {
       icon: Phone,
       title: "Call Us",
-      details: ["+1 (555) 123-4567", "+1 (555) 987-6543"]
+      details: ["023 543073", "023 533073"]
     },
     {
       icon: Mail,
       title: "Email Us",
-      details: ["info@anarmaniliberty.edu", "admissions@anarmaniliberty.edu"]
+      details: ["jhapaliberty@gmail.com", "puranprasadbista@gmail.com"]
     },
     {
       icon: Clock,
@@ -134,7 +134,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      placeholder="John Doe"
+                      placeholder="Your Name"
                     />
                   </div>
 
@@ -147,7 +147,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      placeholder="john@example.com"
+                      placeholder="youremail@example.com"
                     />
                   </div>
 
@@ -159,7 +159,7 @@ const Contact = () => {
                       type="tel"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+977 9XXXXXXXXX"
                     />
                   </div>
 
@@ -203,8 +203,8 @@ const Contact = () => {
                     <MapPin className="h-16 w-16 text-primary mx-auto mb-4" />
                     <h3 className="text-2xl font-bold mb-2">Find Us Here</h3>
                     <p className="text-muted-foreground">
-                      123 Education Street<br />
-                      Academic City, AC 12345
+                      Birtamode-5<br />
+                      Jhapa
                     </p>
                     
                     {/* Add onClick handler to the button */}

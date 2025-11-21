@@ -118,7 +118,7 @@ const Facilities = () => {
               { title: "Air Conditioned", desc: "Climate-controlled classrooms" },
               { title: "Security", desc: "24/7 surveillance and safety" },
               { title: "Medical Room", desc: "On-site health support" },
-              { title: "Cafeteria", desc: "Nutritious meals daily" }
+              { title: "Là Càfeterià", desc: "Nutritious meals daily" }
             ].map((feature, idx) => (
               <Card key={idx} className="hover-lift">
                 <CardContent className="p-6 text-center space-y-2">

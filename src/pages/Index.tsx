@@ -15,7 +15,7 @@ const Index = () => {
     },
     {
       icon: Users,
-      title: "Experienced Faculty",
+      title: "Trained Hands",
       description: "Dedicated teachers committed to student success and personal growth",
       link: "/about"
     },
@@ -27,19 +27,19 @@ const Index = () => {
     },
     {
       icon: Building2,
-      title: "Modern Facilities",
+      title: "Cutting-Edge Facilities",
       description: "State-of-the-art infrastructure supporting 21st century learning",
       link: "/facilities"
     },
     {
       icon: GraduationCap,
-      title: "Holistic Development",
+      title: "Holistic Approach",
       description: "Balanced approach to academics, sports, arts, and character building",
       link: "/about"
     },
     {
       icon: Heart,
-      title: "Caring Environment",
+      title: "Condusive Environment",
       description: "Safe, inclusive community where every child feels valued and supported",
       link: "/contact"
     }
@@ -54,11 +54,13 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
            <h2 className="text-4xl font-bold mb-4">
-              Why choose{' '}
+              Why do brilliant students choose{' '}
               <span className="font-old-english">
-                Anarmani Liberty
+                Liberty 
               </span>
-                ‎ ?
+               
+                ‎ at Birtamode - 5 ?
+                
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               We provide a comprehensive educational experience that prepares students for success

@@ -2,8 +2,6 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Target, Eye, History, Users, Award, Heart, LucideIcon } from "lucide-react";
 import { useState, useEffect } from "react";
 
-// --- Data Type Definitions ---
-// It's good practice to define the shape of the data you expect from the API.
 interface Mission {
   title: string;
   description: string;
@@ -35,8 +33,6 @@ interface AboutData {
   milestones: Milestone[];
 }
 
-// --- Icon Mapping ---
-// This object maps the string from the database to the actual Lucide icon component.
 const iconMap: { [key: string]: LucideIcon } = {
   Award: Award,
   Heart: Heart,
@@ -45,17 +41,17 @@ const iconMap: { [key: string]: LucideIcon } = {
 };
 
 const About = () => {
-  // --- State Management ---
+
   const [data, setData] = useState<AboutData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  // --- Data Fetching ---
+
   useEffect(() => {
     const fetchData = async () => {
       try {
         setLoading(true);
-        // Ensure you use the correct API endpoint.
+
         const response = await fetch("http://localhost:8000/api/about/");
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -70,22 +66,20 @@ const About = () => {
     };
 
     fetchData();
-  }, []); // Empty dependency array means this runs once on component mount.
+  }, []); 
 
-  // --- Render Loading State ---
   if (loading) {
     return <div className="min-h-screen flex justify-center items-center">Loading...</div>;
   }
 
-  // --- Render Error State ---
   if (error) {
     return <div className="min-h-screen flex justify-center items-center text-red-500">Error: {error}</div>;
   }
 
-  // --- Render Content ---
+
   return (
     <div className="min-h-screen">
-      {/* Mission & Vision */}
+      
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
